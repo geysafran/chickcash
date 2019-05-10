@@ -19,12 +19,12 @@
  	height: 47px;
  	color: red;
  	font-size: 26px;
- 	font-weight: 900px;
+ 	font-weight: 900;
 
 }
 .itemlang{
 	margin:10px;
-	color: red;
+	color: #000;
  	font-size: 26px;
  	font-weight: 900px;
 
@@ -34,6 +34,10 @@
 
 }
 #contact{
+	background: url("../img/exemplos/img-1.jpeg");
+	background-repeat: repeat;
+	display: flex;
+
 
 }
 .title-principal{
@@ -42,14 +46,21 @@
 	 font-size: 72px;
 	 font-weight: 900;
 	 text-align: left; 
+	 color: #fff;
+	 margin-left: 100px;
 	}
 .form-button{
 
 }
 .b-contact{
 	background-color: red;
-	color: white;
-	border-radius: 9px;
+    color: white;
+    border-radius: 42px;
+    width: 280px;
+    font-size: 43px;
+    height: 100px;
+    font-weight: 900;
+    align-self: right;
 
 }
 .img-contact{
@@ -58,21 +69,38 @@
 
 }
 #products{
+	background-color: #1E90FF;
+	
+
+
+}
+.box-prod {
+
+}
+
+.box-prod-1 {
+	display: flex;
+	flex-direction: row;
 
 }
 .our-products{
 	width:  533px;
     height:  80px;
     font-size: 64px;
+    color: #fff;
+
+
 
 
 }
 .box-cash{
+	text-align: center;
 
 }
 .t-cash{
 	height: 40px;
 	font-size: 32px;
+	color: #fff;
 
 }
 
@@ -80,6 +108,7 @@
 	height: 40px;
 	font-size: 22px;
 	text-align: center;
+	color: #fff;
 }
 .img-cash{
 	width: 219.25px;
@@ -87,33 +116,50 @@
 
 }
 #simulate{
+	width: 100%;
+    height: 765px;
+    background-color: #1E90FF;
+    display: flex;
 
 }
+.converter {
+	width: 285px;
+    height: 296px;
+    border-radius: 41px;
+    text-align: center;
+    font-size: 21px;
+    font-family: sans-serif,Arial,Helvetica;
+  	background-color: #FFFFFF;
+}
+}
 .div-simulate{
-	width: 557px;
-    height: 765px;
-
+	
 }
 .t-simulate{
 	width: 533px; 
     height: 164px; 
     font-size: 64px;
     text-align: left;
+    color: #fff;
 
 }
 .p-simulate{
-	 width: 557px;
-     height: 86px;
-     font-size: 32px;
-     text-align: left;
+	width: 557px;
+    height: 86px;
+    font-size: 32px;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
 }
 .img-simulate{
 	 width: 61px; 
      height: 61px;
-     border-radius: 9px;
+     border-radius: 33px;
 
 }
 .list-cash{
+	    list-style: none;
+
 
 }
 .item-coin{
@@ -121,6 +167,7 @@
      height: 43px;
      font-size: 32px;
      text-align: left; 
+    margin-bottom: 40px;
 
 }
 #album{
@@ -151,13 +198,35 @@
 
 }
 #sect-iframe{
+	width: 1920px;
+    height: 573px;
+    background-color: rgb(247, 246, 246);
+    display: flex;
+
+}
+.state {
+	font-size: 20px;
+	color: #000;
+
+
+}
+.city {
+	font-size: 20px;
+	color: #000;
+
+}
+.country {
+	font-size: 20px;
+	color: #000;
 
 }
 .p-red{
 	width: 533px;
-    height: 165px;
-    color: #EE3325;
-    font-size: 64px;
+     height: 165px;
+     color: #EE3325;
+     font-size: 64px;
+     margin: 100px 10px 10px 150px;
+
 
 
 }
@@ -278,8 +347,38 @@
 
 }
 #rodape{
-	
+	background-color: red;
+	width: 1000px;
+    height:542px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1-footer {
+
 }
 .p-footer{
+	
+	text-align: left;
+    font-size: 30px;
+    
+    color: #fff;
+
+
+}
+
+.ptwo-footer {
+	color: #000;
+	font-size: 18px;
+	margin: 100px;
+
+}
+.box2-footer {
+
+}
+
+.pthree-footer {
+color: #fff;
+font-size: 20px;
 
 }
