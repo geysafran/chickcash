@@ -4,16 +4,30 @@
 
 .menulist{
 
+
 }
 
 .list{
-
+	list-style: none;
+    display: flex;
+    margin-left: 349px;
 
 }
 .item{
+ 	margin:8px;
+ 	width:  169px;
+ 	height: 47px;
+ 	color: red;
+ 	font-size: 26px;
+ 	font-weight: 900px;
 
 }
 .itemlang{
+	margin:10px;
+	color: red;
+ 	font-size: 26px;
+ 	font-weight: 900px;
+
 
 }
 #main{
@@ -23,45 +37,90 @@
 
 }
 .title-principal{
-
-}
+	 width:  737px;
+	 height: 360px;
+	 font-size: 72px;
+	 font-weight: 900;
+	 text-align: left; 
+	}
 .form-button{
 
 }
 .b-contact{
+	background-color: red;
+	color: white;
+	border-radius: 9px;
 
 }
 .img-contact{
+	width: 46.52px; 
+	height: 56px;
 
 }
 #products{
 
 }
 .our-products{
+	width:  533px;
+    height:  80px;
+    font-size: 64px;
+
 
 }
 .box-cash{
 
 }
 .t-cash{
+	height: 40px;
+	font-size: 32px;
 
 }
+
+.p-cash{
+	height: 40px;
+	font-size: 22px;
+	text-align: center;
+}
 .img-cash{
+	width: 219.25px;
+    height: 194.98px;
 
 }
 #simulate{
 
 }
 .div-simulate{
+	width: 557px;
+    height: 765px;
 
 }
 .t-simulate{
+	width: 533px; 
+    height: 164px; 
+    font-size: 64px;
+    text-align: left;
+
+}
+.p-simulate{
+	 width: 557px;
+     height: 86px;
+     font-size: 32px;
+     text-align: left;
+}
+.img-simulate{
+	 width: 61px; 
+     height: 61px;
+     border-radius: 9px;
 
 }
 .list-cash{
 
 }
 .item-coin{
+	 width: 179px;
+     height: 43px;
+     font-size: 32px;
+     text-align: left; 
 
 }
 #album{
@@ -71,18 +130,35 @@
 
 }
 .p-photos{
+	width: 492.2px; 
+    height: 199.41px;
+    font-size: 22px;
+    text-align: left;
+
+}
+.p-photo{
+	font-weight: 900px;
 
 }
 .blue-div{
 
 }
 .blue-p{
+	width: 575px;
+    height: 216px;
+    font-size: 42px;
+    text-align: left;
 
 }
 #sect-iframe{
 
 }
 .p-red{
+	width: 533px;
+     height: 165px;
+     color: #EE3325;
+     font-size: 64px;
+
 
 }
 .form-agency{
@@ -98,6 +174,11 @@
 
 }
 .impact-social{
+	width: 533px; 
+    height: 80px;
+    font-size: 64px;
+    text-align: left;
+    color: #0083CA;
 
 }
 .container{
@@ -107,15 +188,38 @@
 
 }
 .img-foruns{
+	width: 374.8px;
+	height: 280.75px;
+	border-radius: 7px;
 
 }
 .t-foruns{
+    width: 493px;
+    height: 74px;
+    font-size: 28px;
+    text-align: left;
+    font-weight: 900;
 
 }
 .p-impact{
+	width:  415.2px;
+	height: 149.41px;
+	font-size: 18px;
+	text-align: left;
 
 }
 .p-news{
+	width: 459.2px;
+ 	height: 103.41px;
+ 	font-size: 16px;
+ 	text-align: left;
+
+}
+.t-news{
+	width: 460px;
+	height: 107px;
+	font-size: 18px;
+	text-align: left;
 
 }
 .news-1{
@@ -148,4 +252,7 @@
 }
 #rodape{
 	
+}
+.p-footer{
+
 }
