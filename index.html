@@ -1,287 +1,302 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en-US">
 <head>
-	<meta charset="utf-8">
-	<meta name="">
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-	<title>yddutu</title>
+	<meta charset="UTF-8">
+	<title>QuickCash</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,600|Montserrat:500,600,700|Muli:300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content=""><!-- palavras chave -->
+	<meta name="description" content=""><!-- descrição do site -->
+	<meta name="author" content=""><!-- autor ou autores do site -->
+	<meta http-equiv="content-language" content="en-US, fr" /><!-- definindo idiomas do site (o lang defini o idioma principal) -->
 </head>
+
 <body>
-	<header id="header">
-		<nav class="menulist">
-			<ul class="list">
-				<li class="item">About us
-				</li>
-				<li class="item">Our Products
-				</li>
-				<li class="item">Contact
-				</li>
-				<li class="itemlang">EN/FR</li>
-			</ul>
-		</nav>
+	<!--=====|header|=====-->	
+	<header class="containerHeader">
+		<section class="containerHeader-barraSuperior">
+			<div class="blocoLogo">
+				<img class="blocoLogo-logo" src="assets/logo.png">
+			</div>
+			<nav class="blocoMenu">
+				<a href="" class="blocoMenu-link">About us</a>
+				<a href="" class="blocoMenu-link">Our Products</a>
+				<a href="" class="blocoMenu-link">Contacts</a>
+				<div class="blocoLanguage">
+					<a class="blocoLanguage-link" href=""><span>EN</span>/FR</a>
+				</div>
+			</nav>
+			<nav class="blocoMenuMobile">
+				<a href="" class="blocoMenu-link">MENU</a>
+			</nav>
+		</section>
+		<div class="blocoTituloImagem">
+			<h1 class="blocoTituloImagem-tituloHeader">Breaking the boundaries between urban and rural áreas!</h1>
+			<div class="blocoTituloImagem-imagemHeader"></div>
+		</div>
 	</header>
-	<main id="main">
-		<section id="contact">
-			<h2 class="title-principal">Breaking the boundaries between urban and rural áreas!
-			</h2>
-		<form class="form-button">
-			<button class="b-contact">
-				<img src="./assets/img/button.svg" class="img-contact">
-				Contact
-			</button>
-		</form>
-		<!-- <div class="box-form">
-				<form id="form">
-					<div class="">
-					<label for="name">Name</label>
-					<input type="text" name="nome">
-				</div>
-				<div class="">
-					<label for="email">Email</label>
-					<input type="email" name="email">
-				</div>
-				<div class="">
-					<label for="help">How can we help you?</label>
-					<textarea name="comentario"></textarea>
-				</div>
-				</form>
-				<button class="cancel">Cancelar
-				</button>
-				<button class="enviar">Enviar
-				</button>
-			</div> -->
-		</section>
-		<section id="products">
-			<div class="box-prod">
-			<h2 class="our-products">
-				Our Products
-			</h2>
+	<!--=====|Produtos e Apresentação|=====-->
+	<section class="container">
+		<h1 class="container-titulo">Our products</h1>
+		<div class="containerProdutos">
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Cash to Cash</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/cash.png" alt="">
+				<p class="containerProdutos-bloco-paragrafo">Transfer of money from one individual to another</p>
 			</div>
-			<div class="box-prod-1">
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Cash to Card</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/card.png" alt="">
+				<p class="containerProdutos-bloco-paragrafo">Transfer of money from an individual onto a card</p>
+			</div>
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Cash to Account</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/account.png" alt="">
+				<p class="containerProdutos-bloco-paragrafo">Transfer of money from an individual to a bank account</p>
+			</div>
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Nos Valeurs</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/valeurs.png" alt="">
+				<p class="containerProdutos-bloco-paragrafo">Solidarité - Écoute Responsabilité - Volonté Innovation - Réactivité</p>
+			</div>
+		</div>
+	</section>
+	<!--==========-->
+	<!--=====|Apresentação Simulador|=====-->
+	<section class="containerSimulador">
+		<!-- <form class="containerSimulador-formulario" action="">
+			<label for="">
+				<h1>From:</h1>
+				<select class="containerSimulador-select" name="simulador" id="">
+					<option value="frace">France</option>
+					<option value=""></option>
+					<option value=""></option>
+				</select>
+				<h1>To:</h1>
+				<select class="containerSimulador-select" name="" id="">
+					<option value="frace">France</option>
+					<option value=""></option>
+					<option value=""></option>
+				</select>
+			</label>
+			<input type="text">
+			<input type="text">
+			<div class="containerSimulador-texto">
+				<p>Today's rate: €1 = 655.96 FCFA</p>
+				<p>€2.00 fee</p>
+			</div>
+		</form> -->
+		<!--=====|Apresentação Simulador - Bloco lateral|=====-->
+		<div class="containerSimulador-blocoLateral">
+            <!-- eu usaria h2 aqui -->
+            <h2 class="containerSimulador-titulo">Simulate your transfer</h2>
+            <!-- eu usuaria p aqui -->
+			<p class="containerSimulador-subTitulo">QuickCash is currently available in these countries:</p>
+			<div class="containerSimulador-paises">
+				<div class="containerSimulador-bandeira">
+					<img src="assets/Costa-do-marfim.png" alt="">
+					<p class="containerSimulador-nome">Ivory Coast</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/BurkinaFaso.png" alt="">
+					<p class="containerSimulador-nome">Burkina Faso</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/mali.png" alt="">
+					<p class="containerSimulador-nome">Mali</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/Niger.png" alt="">
+					<p class="containerSimulador-nome">Niger</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/Togo.png" alt="">
+					<p class="containerSimulador-nome">Togo</p>
+				</div>
+			</div>
 			
-			<div class="box-cash">
-				<p class="t-cash">
-					Cash to Cash
-				</p>
-				<img src="" class="img-cash">
-				<p class="p-cash">
-					Transfer of money from one individual to another
-				</p>
-			</div>
-			<div class="box-cash">
-				<p class="t-cash">
-					Cash to Card
-				</p>
-				<img src="" class="img-cash">
-				<p class="p-cash">
-					Transfer of money from an individual onto a card
-				</p>
-			</div>
-			<div class="box-cash">
-				<p class="t-cash">
-					Cash to Account
-				</p>
-				<img src="" class="img-cash">
-				<p class="p-cash">
-					Transfer of money from an individual to a bank account
-				</p>
-			</div>
-			<div class="box-cash">
-				<p class="t-cash">
-					Nos Valeurs
-				</p>
-				<img src="" class="img-cash">
-				<p class="p-cash">
-					Solidarité - Écoute Responsabilité - Volonté Innovation - Réactivité
-				</p>
-			</div>
 		</div>
-		</section>
-		<section id="simulate">
-			<a href="https://www.fxexchangerate.com/" class="converter">Currency Converter
-			</a>
-		</div>
-		<script type="text/javascript" src="https://w.fxexchangerate.com/converter.php?fm=USD&ft=EUR&lg=en&am=1&ty=1">
-		</script></div>
-			<div class="div-simulate">
-				<h2 class="t-simulate">Simulate your transfer
-				</h2>
-				<p class="p-simulate">QuickCash is currently available in these countries:</p>
-				<ul class="list-cash">
-					<li class="item-coin"><img src="./assets/img/ivory.png" class="img-simulate">Ivory</li>
-					<li class="item-coin"><img src="./assets/img/burkina.png" class="img-simulate">Burkina</li>
-					<li class="item-coin"><img src="./assets/img/mali.png" class="img-simulate">Mali</li>
-					<li class="item-coin"><img src="./assets/img/niger.png" class="img-simulate">Niger</li>
-					<li class="item-coin"><img src=./assets/img/togo.jpg" class="img-simulate">Togo</li>
-				</ul>
-			</div>
-		</section>
-		<section id="album">
-			<div class="album-photos">
-				<p class="p-photos">
-					"With QuickCash, I no longer need to go into town for my transfers. Even in the village I can make my transfers at the ATM. Thank you QuickCash to have thought about the rural population. " 
-				</p>
-				<p class="p-photo">ThéodoreN'Daplé (Farmer)</p>
-			</div>
-			<div class="blue-div">
-				<h2 class="blue-p">
-					Writing a new page in the history of money transfer along with you!
-				</h2>
-			</div>
-		</section>
-		<section id="sect-iframe">
-			<h2 class="p-red">Find an agency near you!
-			</h2>
-			<div class="agency">
-				<form class="fomr-agency">
-						<select name="country">
-						<label class="contry">Country</label>
-					  	<option value="country" selected>
-					  	
-					  </option>
-					<select>
-						<select name="state">
-						<label class="state">State</label>
-					  	<option value="state" selected>
-					  	
-					  </option>
-					<select>
-						<select name="city">
-						<label class="city">City</label>
-					  	<option value="city" selected>
-					  	
-					  
-					  </option>
+	</section>
+	<!--==========-->
+	<!--=====|Apresentação Slide|=====-->
+	<section class="containerSlide">
+        <!-- eu colocaria as bolhas nessa section :) -->
+        <!-- depois colocaria dois quadrados, que no caso, vão te permitir usar flexbox -->
+        
+        <div class="blocoSlide">
+			<div class="slide">
+				<input id="slide" type="checkbox">
+				<label for="slide" class="slide-primeiroBloco">
+					<img class="slide-primeiroBloco-img" src="assets/female-farmer-kenya-west.png" alt="">
+					<p class="slide-primeiroBloco-paragrafo">"With QuickCash, I no longer need to go into town for my transfers. Even in the village I can make my transfers at the ATM. Thank you QuickCash to have thought about the rural population. "</p>
+		            <h1 class="slide-primeiroBloco-titulo">ThéodoreN'Daplé (Farmer)</h1>
+				</label>
+				<label for="slide" class="slide-segundoBloco">
+					<img class="slide-segundoBloco-img" src="assets/atelier-secteur-agricole.png" alt="">
+				</label>
+		    </div>
+        </div>
+        <div class="circulos">
+		    <div class="primeiroCirculo"></div>
+		    <div class="segundoCirculo"></div>
+        </div>
+        <!-- não precisa mais dessa div -->
+			<h2 class="containerSlide-titulo">Writing a new page in the history of money transfer along with you!</h2>
+	</section>
+	<!--=====|Agência e Noticia|=====-->
+	<main class="containerPrincipal">
+		<section class="containerAgencia">
+			<img class="containerAgencia-icon" src="assets/globo.svg" alt="">
+			<h1 class="containerAgencia-titulo">Find an agency near you!</h1>
+			<!-- <div class="containerAgencia-globo"> -->
+			<!-- </div> -->
+			<form class="containerAgencia-form">
+                <!-- eu usuria um label aqui! :) assim: -->
+                <label class="containerAgencia-label" for="country">Country</label>
+                <select id="country" name="country" placeholder="Country">
+                    <option value="country">Country</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States">United States</option>
+                </select>
+                
+	            <label class="containerAgencia-label" for="state">State</label>
+	            <select name="state" id="state" placeholder="State" >
+					<option value="state">State</option>
+					<option value="state">State</option>
+					<option value="state">State</option>
+				</select>
 
-					<select>
-						<button class="b-agency">search</button>
-				</form>
-				<iframe src="" class="iframe">
-					
-				</iframe>
-				
+				<label class="containerAgencia-label" for="city">City</label>
+				<select name="city" id="city" placeholder="City" >
+					<option value="city">City</option>
+					<option value="city">City</option>
+					<option value="city">City</option>
+				</select>
+				<button class="containerAgencia-botao">
+					<a class="containerAgencia-botao-link">SEARCH</a>	
+				</button>
+			</form>
+			<div class="containerMap">
+				<div class="containerMap-map" style="overflow:hidden;width: 200px;position: relative;"><iframe width="200" height="150" src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=BIAO%20abidjan+(T%C3%ADtulo)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/fr/">https://embedgooglemaps.com/fr/</a> & <a href="https://lasagradafamiliatickets.de/la-sagrada-familia-ticket/">tickets online buchen</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+				<p class="containerMap-texto">Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01</p>
 			</div>
 		</section>
-		<section id="social-impact">
-			<h2 class="impact-social">Social Impact
-			</h2>
-			<div class="container">
-				<div class="foruns">
-					<div class="d-img">
-					<img src="./assets/img/forum-mondiale.png" class="img-foruns">
+		<!--=====|Notícias|=====-->
+		<section class="containerNoticias">
+			<!-- <div class="containerNoticias-titulo">
+			</div> -->
+			<div class="containerNoticias-TituloSecoes">
+				<h1 class="containerNoticias-titulo">Social Impact</h1>
+				<div class="containerNoticias-secoes">
+					<img class="containerNoticias-imagem" src="assets/forum-mondiale.png" alt="">
+					<div
+					 class="containerNoticias-blocoTituloTexto">
+						<h1 class="containerNoticias-blocoTituloTexto-titulo">Quickcash au forum mondiale des droits de l’homme au Maroc</h1>
+						<p class="containerNoticias-blocoTituloTexto-texto">Après le Brésil s’est déroulée au Maroc du 27 au 30 Novembre 2014, la deuxième édition du Forum mondial des droits de l’Homme. Ce Forum a rassemblé pendant 4 jours plus de 8.000 participants sur divers thématiques concernant les Droits de l’Homme.</p>
 					</div>
-					<div class="d-text">
-						<h2 class="t-foruns">Quickcash au forum mondiale des droits de l’homme au Maroc
-						</h2>
-						<p class="p-impact">
-						Après le Brésil s’est déroulée au Maroc du 27 au 30 Novembre 2014, la deuxième édition du Forum mondial des droits de l’Homme. Ce Forum a rassemblé pendant 4 jours plus de 8.000 participants sur divers thématiques concernant les Droits de l’Homme.
-						</p>
-					 </div>
 				</div>
-                <div class="foruns invers">
-					<div class="d-img">
-					    <img src="./assets/img/atelier-secteur-agricole.png" class="img-foruns">
-				    </div>
-				    <div class="d-text">
-					    <h2 class="t-foruns">Quickcash participe à un atelier sur le thème : " Le secteur agricole face aux enjeux du changement climatique "
-					    </h2>
-				    
-					    <p class="p-impact">
-						Le 21 Novembre 2014, à l’initiative de la CGECI (Confédération Générale des Entreprises de Côte d’Ivoire) et l’UNEMAF (L’Union des Entreprises Agricoles et Forestières) s’est tenue à la Maison de l’Entreprise, sise au plateau, un atelier d’information et de sensibilisation des acteurs du secteur agricole. Les thèmes abordés étaient relatifs à l’impact des changements climatiques sur l’agriculture et les stratégies d’adaptation et d’atténuation de leurs effets.
-					   </p>
-				    </div>
+				<div class="containerNoticias-secoes reverse">
+					<img class="containerNoticias-imagem" src="assets/atelier-secteur-agricole.png
+					" alt="">
+					<div class="containerNoticias-blocoTituloTexto">
+						<h1 class="containerNoticias-blocoTituloTexto-titulo">Quickcash participe à un atelier sur le thème : " Le secteur agricole face aux enjeux du changement climatique "</h1>
+						<p class="containerNoticias-blocoTituloTexto-texto">Le 21 Novembre 2014, à l’initiative de la CGECI (Confédération Générale des Entreprises de Côte d’Ivoire) et l’UNEMAF (L’Union des Entreprises Agricoles et Forestières) s’est tenue à la Maison de l’Entreprise, sise au plateau, un atelier d’information et de sensibilisation des acteurs du secteur agricole. Les thèmes abordés étaient relatifs à l’impact des changements climatiques sur l’agriculture et les stratégies d’adaptation et d’atténuation de leurs effets.</p>
+					</div>
 				</div>
-
-
-				<div class="foruns">
-
-					<div class="d-img">
-					    <img src="./assets/img/forum-mondiale.png" class="img-foruns">
-				    </div>
-					<div class="d-text">
-					<h2 class="t-foruns">QuickCash au forum de Lille sur la RSE
-					</h2>
-					<p class="p-impact">
-						La 8e édition du Forum Internationale de Lille, s’est ouverte du 21 au 24 Octobre 2014 devant un public de plus de 6.000 participants autour de 9 défis majeurs : Les ressources de la science et des technologies, de l’emploi, des inégalités, de l’éducation, de la démographie, la finance, de l’information et des territoires. Les cérémonies d’ouverture et de clôture a vu la participation des précurseurs du social business que sont le Pr YUNUS MUHAMMAD Prix Nobel de la Paix et TONY MELOTO.
-					</p>
-				    </div>
+				<div class="containerNoticias-secoes">
+					<img class="containerNoticias-imagem" src="assets/forum-mondiale.png" alt="">
+					<div class="containerNoticias-blocoTituloTexto">
+						<h1 class="containerNoticias-blocoTituloTexto-titulo">QuickCash au forum de Lille sur la RSE</h1>
+						<p class="containerNoticias-blocoTituloTexto-texto">La 8e édition du Forum Internationale de Lille, s’est ouverte du 21 au 24 Octobre 2014 devant un public de plus de 6.000 participants autour de 9 défis majeurs : Les ressources de la science et des technologies, de l’emploi, des inégalités, de l’éducation, de la démographie, la finance, de l’information et des territoires. Les cérémonies d’ouverture et de clôture a vu la participation des précurseurs du social business que sont le Pr YUNUS MUHAMMAD Prix Nobel de la Paix et TONY MELOTO.</p>
+					</div>
 				</div>
+				<a class="containerNoticias-showMore" href="">< Show more ></a>
 			</div>
-			<div class="title-news"><p class="tt-news">News</p></div>
-			<div class="box-news">
-			<div class="news-1">
-				<h2 class="t-news">Participation of Patricia Zoundi Yao, CEO of QuickCash in the seventh annual Global Entrepreneurship Summit (GES)
-				</h2>
-				<p class="p-news">The CEO of QuickCash, Mrs. Patricia Zoundi Yao, participated in the seventh annual Global Entrepreneurship Summit (GES), held from the 22nd to the 24th of June 2016, at Stanford University in Silicon Valley, California. This summit gathered entrepreneurs at all stages of business development and featured new commitments to promote entrepreneurship as a driver for economic growth, social inclusion, and secure communities.
-				</p>
-			</div>
-				<div class="news-2">
-					<h2 class="t-news">Quickcash for participation in the campain « ewaste » MTN Ivory Coast
-					</h2>
-					<p class="p-news">Launched October 7, 2015, the campaign "EWASTE" why MTN Ivory Coast and were ERICSON partnership lasted four (4) months and ended on February 7th with a ceremony at the Pullman Hotel Plateau.</p>
-					
+			<div class="containerNoticias-news">
+				<h1 class="containerNoticias-news-titulo">News</h1>
+				<div class="containerNoticias-news-tituloSubTexto">
+					<h1 class="containerNoticias-news-subTitulo">Participation of Patricia Zoundi Yao, CEO of QuickCash in the seventh annual Global Entrepreneurship Summit (GES)</h1>
+					<p class="containerNoticias-news-texto">The CEO of QuickCash, Mrs. Patricia Zoundi Yao, participated in the seventh annual Global Entrepreneurship Summit (GES), held from the 22nd to the 24th of June 2016, at Stanford University in Silicon Valley, California. This summit gathered entrepreneurs at all stages of business development and featured new commitments to promote entrepreneurship as a driver for economic growth, social inclusion, and secure communities.</p>
 				</div>
-				<div class="news-3">
-					<h2 class="t-news">QuickCash honored at the National Day of Excellence 2014
-					</h2>
-					<p class="p-news">Patricia ZOUNDI Mrs. YAO, CEO of QuickCash received the award of youth entrepreneurship on Friday 1st August at the National Day of Excellence. Held at the presidential palace, the ceremony was graced by the presence of the presidential couple, members of the government, diplomatic and responsible institution.</p>
-					
+				<div class="containerNoticias-news-tituloSubTexto">
+					<h1 class="containerNoticias-news-subTitulo">Quickcash for participation in the campain « ewaste » MTN Ivory Coast</h1>
+					<p class="containerNoticias-news-texto">Launched October 7, 2015, the campaign "EWASTE" why MTN Ivory Coast and were ERICSON partnership lasted four (4) months and ended on February 7th with a ceremony at the Pullman Hotel Plateau.</p>
 				</div>
-				<h2 class="p-news">Show more News
-				</h2>
+				<div class="containerNoticias-news-tituloSubTexto">
+					<h1 class="containerNoticias-news-subTitulo">QuickCash honored at the National Day of Excellence 2014</h1>
+					<p class="containerNoticias-news-texto">Patricia ZOUNDI Mrs. YAO, CEO of QuickCash received the award of youth entrepreneurship on Friday 1st August at the National Day of Excellence. Held at the presidential palace, the ceremony was graced by the presence of the presidential couple, members of the government, diplomatic and responsible institution.</p>
+				</div>
+				<a class="containerNoticias-showMoreNews" href="">< Show more News ></a>
 			</div>
-			</section>
-			<section id="partners">
-				<div class="box-partners">
-					<h2 class="t-partners">Banking Partners</h2>
-					<ul class="list-part">
-						<li class="item-part"><a href=""><img src="./assets/img/asusu.png" class="img-part"></a></li>
-						<li class="item-part"><a href=""><img src="./assets/img/banque-populaire.png" class="img-part"></a></li>
-						<li class="item-part"><a href=""><img src="./assets/img/boa-vert-bf.png" class="img-part"></a></li>
-						<li class="item-part"><a href=""><img src="./assets/img/sonapost.png" class="img-part"></a></li>
-						<li class="item-part"><a href=""><img src="./assets/img/cnce.png" class="img-part"></a></li>
+		</section>
+		<section class="containerNoticias-patrocinadores">
+			<h1 class="containerNoticias-patrocinadores-titulo">Banking Partners</h1>
+			<div class="containerNoticias-patrocinadores-bancos">
+				<img src="assets/asusu.png" alt="">
+				<img src="assets/banque-populaire.png" alt="">
+				<img src="assets/boa-vert-bf.png" alt="">
+				<img src="assets/sonapost.png" alt="">
+				<img src="assets/cnce.png" alt="">
 			</div>
-			<div class="box-partners">
-					<h2 class="">Insitutional partners</h2>
-					<li class="item-part"><a href=""><img src="./assets/img/inovapay.png" class="img-part"></a></li>
-					<li class="item-part"><a href=""><img src="./assets/img/logo2.png" class="img-part"></a></li>
-					<li class="item-part"><a href=""><img src="./assets/img/moneytrans.png"class="img-part"></a></li>
-					<li class="item-part"><a href=""><img src="./assets/img/stanford.png"class="img-part"></a></li>
-					<li class="item-part"><a href=""><img src="./assets/img/camec.png"class="img-part"></a></li>
-					<li class="item-part"><a href=""><img src="./assets/img/chamber-trust.png"class="img-part"></a></li>
+			<h1 class="containerNoticias-patrocinadores-titulo">Institutional Partners</h1>
+			<div class="containerNoticias-patrocinadores-instituicoes">
+				<img src="assets/inovapay.png" alt="">
+				<img src="assets/logo2.png" alt="">
+				<img src="assets/moneytrans.png" alt="">
+				<img src="assets/stanford.png" alt="">
+				<img src="assets/camec.png" alt="">
+				<img src="assets/chamber-trust.png" alt="">
 			</div>
 		</section>
 	</main>
-	<footer id="rodape">
-		<div class="box1-footer">
-		<p class="p-footer"> 
-			<img src="" class="img-1-footer">
-			Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01 
-			<br>
-			Tel : (225) 20 32 25 35 
-			<br>
-			Email : infos@quickca'shci.com
-		</p>
-		<p class="ptwo-footer">
-			Copyright © 2019 QuickCash - All Rights Reserved Developed by Vai na Web
-		</p>
-		</div>
-		<div class="box2-footer">
-			<p class="pthree-footer">
-				About Us
-				<br>
-				Our Products
-				<br>
-				News 
-				<br>
-				Contacts
-				
-			</p>
-			<img src="" class="img-2-footer">
+	<!--=====|Contatos|=====-->
+	<footer class="containerFooter">
+
+		<div class="containerFooter-circulosMaiores">
+			<img src="assets/circulos-vermelhos.png" alt="">
 		</div>
 
-		
+		<div class="containerFooter-logoContatos">
+			<div class="logoContatos-logoFooter">
+				<img src="assets/logo-footer.png" alt="">
+			</div>
+
+			<div>
+				<div class="logoContatos-iconTexto">
+					<img src="assets/baseline-location_on-24px.svg" alt="">
+					<p>Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01</p>
+				</div>
+				<div class="logoContatos-iconTexto">
+					<img src="assets/baseline-phone-24px (1).svg" alt="">
+					<p>Tel : (225) 20 32 25 35</p>
+				</div>
+				<div class="logoContatos-iconTexto">
+					<img src="assets/baseline-email-24px.svg" alt="">
+					<p>Email : infos@quickcashci.com</p>
+				</div>
+			</div>
+
+			<div class="logoContatos-textoCopy">
+				<p class="logoContatos-textoCopy-copy">Copyright © 2019 QuickCash - All Rights Reserved </p>
+				<p>Developed by Vai na WEb</p>
+			</div>
+		</div>
+
+		<div class="containerfooter-menuFooter">
+			<a href="">About us</a>
+			<a href="">Our Products</a>
+			<a href="">News</a>
+			<a href="">Contact</a>
+			<img src="assets/circulos-brancos.png" alt="">
+		</div>
 	</footer>
-
+	
 </body>
 </html>
